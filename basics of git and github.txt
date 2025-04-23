@@ -100,3 +100,10 @@ Git setup:
     We can use something known as stash which means when we switch from one branch to another without add or commit, it will be drafted
     and not deleted or added.
     We use git stash to draft our changes and use git stash apply to add those drafted changes.
+    
+    When working in team, we follow step by step process:
+        1) Main or project manager creates initial files and push them on repo.
+        2) They add collabrators and those people can now work on same project.
+        3) collabrators can now create clone of that repo and work on it.
+        4) [IMPORTANT] They have to create new branch and add those changes their.
+        5) Project manager checks the changes and fetch them and then merge them.
