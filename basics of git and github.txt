@@ -85,4 +85,6 @@ Git setup:
 
     We use .gitigonre for the files that will be ignored by git during the commits.
     Git reset can have 3 options: soft, hard, and mixed.
-    
+
+    We use git branch "branchname" and not -b as it can work as well.
+    If we do not commit and change branch, we will see the changes in other branch also which is how git works.
