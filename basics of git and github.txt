@@ -82,3 +82,5 @@ Git setup:
         2) git reset --hard "commit hash" (this will also make changes in our vs code according to the reset.)
 
     Fork: A fork is new repository that shares code and visibility settings with the original "upstream" repository. Fork is a rough copy.
+
+    This is reading material, do not make changes in it.
