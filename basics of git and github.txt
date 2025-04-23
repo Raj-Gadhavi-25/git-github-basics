@@ -88,3 +88,5 @@ Git setup:
 
     We use git branch "branchname" and not -b as it can work as well.
     If we do not commit and change branch, we will see the changes in other branch also which is how git works.
+
+    We can use commands like git log --graph to see entire graph of how did our tree worked.
