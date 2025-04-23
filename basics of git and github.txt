@@ -83,4 +83,6 @@ Git setup:
 
     Fork: A fork is new repository that shares code and visibility settings with the original "upstream" repository. Fork is a rough copy.
 
-    This is reading material, do not make changes in it.
+    We use .gitigonre for the files that will be ignored by git during the commits.
+    Git reset can have 3 options: soft, hard, and mixed.
+    
