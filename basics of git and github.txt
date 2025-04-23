@@ -90,4 +90,9 @@ Git setup:
     If we do not commit and change branch, we will see the changes in other branch also which is how git works.
 
     We can use commands like git log --graph to see entire graph of how did our tree worked.
+<<<<<<< HEAD
     We can handle conflicts using 3 ways, keeping change of current, keeping change of incoming, or keeping both.
+=======
+    There are many merging techniques like - Fast Forward merge, three way merge, squash merging, recursive merging, 
+    strategy merging, rebase and merge. Main are the first two which are mainly used in market. 
+>>>>>>> feature1
