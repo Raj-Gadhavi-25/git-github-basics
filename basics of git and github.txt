@@ -93,3 +93,6 @@ Git setup:
     We can handle conflicts using 3 ways, keeping change of current, keeping change of incoming, or keeping both.
     There are many merging techniques like - Fast Forward merge, three way merge, squash merging, recursive merging, 
     strategy merging, rebase and merge. Main are the first two which are mainly used in market. 
+    
+    We can delete branch locally using git branch -D "branchname"
+    To delete the branch on github, we would write command git push origin --delete "branchname".
