@@ -48,8 +48,8 @@ Git setup:
         1) git branch (to check the branch we are currently at).
         2) git branch -M main (to rename branch to main).
         3) git checkout "branch name" (to navigate to that branch).
-        4) git checkout -b "branch name" (to create new branch).
-        5) git branch -d "branch name" (to delete branch).
+        4) git checkout -B "branch name" (to create new branch).
+        5) git branch -D "branch name" (to delete branch).
 
     Once the changes has been done, we will finally merge the branches to the main after final changes are committed.
 
