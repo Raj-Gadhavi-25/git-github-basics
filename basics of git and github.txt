@@ -1,0 +1,84 @@
+GIT:
+    Git is a version control system. Version control system is a tool that helps to track change in code.
+    Git is free and open-source, fast and scalable, and highly popular.
+    We use git for 1) to track the history of our code. 2) Git can be used for collabration meaning people can work in team.
+
+Github:
+    It is an website that allows developers to store and manage their code using git.
+    Readme.md(markdown) file is used to store related information of project.
+    Changes in github are known as commit. When we want to finalize our changes, we will commit them.
+    To finalize any change on github, will require 2 steps: 1) Add and 2) commit. We can also use simple HTML in readme file for making it more
+    readable.
+
+Git setup:
+    We set email and username in git using command "git config --global user.name "My Name"".
+    and for email, command is: "git config --global user.email "my-email"".
+    we can check what we have configured using command: git config --list.
+    When we want to clone a repository on our local machine, we use - git clone "some link".
+    We can check status of our code by writing command: git status.
+    In inital stages, if we add new files, they will be in untracked stage,
+    the files that were already there, we modify them, than they will become modified.
+    The untracked files are than added which changes there status to staged.
+    Than we commit which makes there status unchanged.
+
+    To add files, we write command: git add "file name".
+    and to commit, we write: git commit -m "some message".
+    We can write git add . to make all changes together when we have multiple files to add.
+    We can  push our local repo store it on the remote repo. "git push origin main" is the command used for that.
+    This was all about when we create repo first and then we create project.
+    
+    When we will create project first on our local system, we will use init command.
+    init is used for creating new repo.
+    some init commands are:
+            1) git init
+            2) git remote add origin "some link"
+            3) git remote -v (to verify remote)
+            4) git branch (to check branch)
+            5) git branch -M main (to rename branch)
+            6) git push origin main
+
+    When we are going to work on same project for longer period, we can use git push -u origin main which means we will define that we are 
+    talking about origin main, we will than write only git push command.
+
+    We can create multiple branches to work on same project with multiples copies of it so that whenever one person is working, other 
+    can also work on same project in their own copy. This copies are branches.
+    We can create new branches and we can also merge them to combine the codes of the different copies.
+
+    Branch commands:
+        1) git branch (to check the branch we are currently at).
+        2) git branch -M main (to rename branch to main).
+        3) git checkout "branch name" (to navigate to that branch).
+        4) git checkout -b "branch name" (to create new branch).
+        5) git branch -d "branch name" (to delete branch).
+
+    Once the changes has been done, we will finally merge the branches to the main after final changes are committed.
+
+    Merging Commands:
+        1) git diff "branch name" (to compare commits, branches, files and more)
+        2) git merge "branch name" (to merge 2 branches)
+
+    There is also another way to do it that is by creating a PR. PR is a pull request. this method is done with the help of github.
+    Pull Request - It lets you tell others about changes you have pushed to a branch in repo in github. We will mainly use this
+    as projects often have more than one team and there is senior who will first review you PR and than it can be merged.
+
+    Now the new merged changes are done on remote, to see it on local, we will use the pull command.
+
+    Pull command:
+        1) git pull origin main (to download content from remote repo and update local repo to match that content).
+
+    Merge conflicts - when we have created more than one branches, and every branches or some branches have changed code in same line,
+    than git will not understand which one to keep.
+
+    Undoing changes: When we want to go back or rollback or undo things we will use undoing changes commands.
+       CASE 1:Staged changes (add has been done but not commited):
+        1) git reset "file name"
+        2) git reset (for multiple files)
+       
+       CASE 2:commited changes (for one commit)
+        1) git reset HEAD~1
+
+       CASE 3: commited changes (for many commits)
+        1) git reset "commit hash"
+        2) git reset --hard "commit hash" (this will also make changes in our vs code according to the reset.)
+
+    Fork: A fork is new repository that shares code and visibility settings with the original "upstream" repository. Fork is a rough copy.
