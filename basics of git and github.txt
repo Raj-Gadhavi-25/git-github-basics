@@ -96,3 +96,7 @@ Git setup:
     
     We can delete branch locally using git branch -D "branchname"
     To delete the branch on github, we would write command git push origin --delete "branchname".
+    
+    We can use something known as stash which means when we switch from one branch to another without add or commit, it will be drafted
+    and not deleted or added.
+    We use git stash to draft our changes and use git stash apply to add those drafted changes.
