@@ -107,3 +107,6 @@ Git setup:
         3) collabrators can now create clone of that repo and work on it.
         4) [IMPORTANT] They have to create new branch and add those changes their.
         5) Project manager checks the changes and fetch them and then merge them.
+
+    Git reset will remove the entire history and point the HEAD to the previous one. Git revert will create new commit, in which the data
+    will be of previous one.
